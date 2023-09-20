@@ -17,7 +17,6 @@ function updateTime() {
     minutos.textContent = min;
     segundos.textContent = sec;
 
-
     const turno = determinarTurno(hr);
     alterarFundo(turno);
 }
